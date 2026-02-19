@@ -44,8 +44,6 @@ public class RunController {
         runRepository.update(run, id);
     }
 
-
-
     @ResponseStatus(HttpStatus.CREATED)
     @DeleteMapping("/{id}")
     void delete(@PathVariable Integer id) {
